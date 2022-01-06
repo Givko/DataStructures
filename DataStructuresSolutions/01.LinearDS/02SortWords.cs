@@ -8,41 +8,41 @@ namespace _01.LinearDS
 {
     public static class _02SortWords
     {
-        public static void QuickSort(this string[] numbers)
+        public static void QuickSort(this string[] arr)
         {
-            QuickSortInternal(numbers, 0, numbers.Length - 1);
+            QuickSortInternal(arr, 0, arr.Length - 1);
         }
 
-        private static void QuickSortInternal(string[] numbers, int left, int right)
+        private static void QuickSortInternal(string[] arr, int left, int right)
         {
             if (left < right)
             {
-                var pivotIndex = Partition(numbers, left, right);
-                QuickSortInternal(numbers, left, pivotIndex - 1);
-                QuickSortInternal(numbers, pivotIndex + 1, right);
+                var pivotIndex = Partition(arr, left, right);
+                QuickSortInternal(arr, left, pivotIndex - 1);
+                QuickSortInternal(arr, pivotIndex + 1, right);
             }
         }
 
-        private static int Partition(string[] numbers, int left, int right)
+        private static int Partition(string[] arr, int left, int right)
         {
             int i = left;
-            string pivot = numbers[right];
+            string pivot = arr[right];
             string temp;
 
             for (int j = left; j <= right; j++)
             {
-                if (numbers[j] < pivot)
+                if (arr[j].CompareTo(pivot) < 0 )
                 {
-                    temp = numbers[j];
-                    numbers[j] = numbers[i];
-                    numbers[i] = temp;
+                    temp = arr[j];
+                    arr[j] = arr[i];
+                    arr[i] = temp;
                     i++;
                 }
             }
 
-            temp = numbers[right];
-            numbers[right] = numbers[i];
-            numbers[i] = temp;
+            temp = arr[right];
+            arr[right] = arr[i];
+            arr[i] = temp;
             return i;
         }
     }

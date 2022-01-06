@@ -1,7 +1,9 @@
-﻿var input = Console.ReadLine()
-    ?.Split(' ', StringSplitOptions.RemoveEmptyEntries)
-    .Select(num => int.Parse(num))
-    .ToArray()
-    .QuickSort();
+﻿using _01.LinearDS;
 
-Console.WriteLine(string.Join(", ", sorted));
+var input = Console.ReadLine()
+    ?.Split(' ', StringSplitOptions.RemoveEmptyEntries)
+    //.Select(num => int.Parse(num))
+    .ToArray();
+input.QuickSort();
+
+Console.WriteLine(string.Join(", ", input));

@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\DataStructures\\DataStructuresSolutions\\01.LinearDS\\01.LinearDS.csproj": {}
+    "C:\\Personal Projects\\DataStructures\\DataStructuresSolutions\\01.LinearDS\\01.LinearDS.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\DataStructures\\DataStructuresSolutions\\01.LinearDS\\01.LinearDS.csproj": {
+    "C:\\Personal Projects\\DataStructures\\DataStructuresSolutions\\01.LinearDS\\01.LinearDS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\DataStructures\\DataStructuresSolutions\\01.LinearDS\\01.LinearDS.csproj",
+        "projectUniqueName": "C:\\Personal Projects\\DataStructures\\DataStructuresSolutions\\01.LinearDS\\01.LinearDS.csproj",
         "projectName": "01.LinearDS",
-        "projectPath": "C:\\Dev\\DataStructures\\DataStructuresSolutions\\01.LinearDS\\01.LinearDS.csproj",
-        "packagesPath": "C:\\Users\\zhivko.m\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\DataStructures\\DataStructuresSolutions\\01.LinearDS\\obj\\",
+        "projectPath": "C:\\Personal Projects\\DataStructures\\DataStructuresSolutions\\01.LinearDS\\01.LinearDS.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Personal Projects\\DataStructures\\DataStructuresSolutions\\01.LinearDS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\zhivko.m\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -55,7 +53,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
