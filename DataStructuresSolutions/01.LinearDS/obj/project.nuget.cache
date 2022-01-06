@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0aQSWjd9mYRvlTqSCcmtvOAu2g0v2hAxNk4TKdG/j3xiuIvpaEnffMVIl+y/5YfaIGKB1fP6f/5miUfNtvne1Q==",
+  "dgSpecHash": "KaelE7leRa+jIs6TPsCvz4r9BsDV8YCMjGPk4A3zLDhFrAzni2F2OvtOLQ0tF4WFCR7yGYBq1gGt/WusPSZS2A==",
   "success": true,
-  "projectFilePath": "C:\\Personal Projects\\DataStructures\\DataStructuresSolutions\\01.LinearDS\\01.LinearDS.csproj",
+  "projectFilePath": "C:\\Dev\\DataStructures\\DataStructuresSolutions\\01.LinearDS\\01.LinearDS.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
