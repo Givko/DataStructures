@@ -2,8 +2,8 @@
 
 var input = Console.ReadLine()
     ?.Split(' ', StringSplitOptions.RemoveEmptyEntries)
-    //.Select(num => int.Parse(num))
+    .Select(num => int.Parse(num))
     .ToArray();
-input.QuickSort();
+(int occurences, int number) = input.LongestSubsequence();
 
-Console.WriteLine(string.Join(", ", input));
+Console.WriteLine($"{number} - {occurences}");
