@@ -6,15 +6,14 @@ using System.Threading.Tasks;
 
 namespace _01.LinearDS
 {
-    public static class _03LongestSubsequence
+    public static class _05CountOfOccurences
     {
-        public static (int occurences, int number) LongestSubsequence(this int[] numbers)
+        public static Dictionary<int, int> CountOfOccurences(this int[] numbers)
         {
             List<int> countedNumbers = new List<int>();
-            int maxOccurences = 1;
-            int maxOccuredNumber = numbers[0];
+            Dictionary<int, int> occurences = new Dictionary<int, int>();
 
-            for (int i = 1; i < numbers.Length; i++)
+            for (int i = 0; i < numbers.Length; i++)
             {
                 int currentOccurences = 1;
                 if (countedNumbers.Contains(numbers[i]))
@@ -26,16 +25,11 @@ namespace _01.LinearDS
                         currentOccurences++;
                 }
 
-                if (maxOccurences < currentOccurences)
-                {
-                    maxOccurences = currentOccurences;
-                    maxOccuredNumber = numbers[i];
-                }
-
+                occurences.Add(numbers[i], currentOccurences);
                 countedNumbers.Add(numbers[i]);
             }
 
-            return (maxOccurences, maxOccuredNumber);
+            return occurences;
         }
     }
 }

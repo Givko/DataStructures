@@ -4,6 +4,9 @@ var input = Console.ReadLine()
     ?.Split(' ', StringSplitOptions.RemoveEmptyEntries)
     .Select(num => int.Parse(num))
     .ToArray();
-(int occurences, int number) = input.LongestSubsequence();
+var occurences = input.CountOfOccurences();
 
-Console.WriteLine($"{number} - {occurences}");
+foreach (var kvp in occurences)
+{
+    Console.WriteLine($"{kvp.Key} -> {kvp.Value} times");
+}
