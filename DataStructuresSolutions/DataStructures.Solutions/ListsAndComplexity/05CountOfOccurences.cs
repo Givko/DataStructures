@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _01.LinearDS
+namespace DataStructures.Solutions
 {
-    public static class _04RemoveOddOccurences
+    public static class _05CountOfOccurences
     {
-        public static List<int> RemoveOddOccurences(this int[] numbers)
+        public static Dictionary<int, int> CountOfOccurences(this int[] numbers)
         {
             List<int> countedNumbers = new List<int>();
-            List<int> evenOccurences = new List<int>();
-            
+            Dictionary<int, int> occurences = new Dictionary<int, int>();
+
             for (int i = 0; i < numbers.Length; i++)
             {
                 int currentOccurences = 1;
@@ -25,18 +25,11 @@ namespace _01.LinearDS
                         currentOccurences++;
                 }
 
-                if (currentOccurences % 2 == 0)
-                {
-                    for (int k = 0; k < currentOccurences; k++)
-                    {
-                        evenOccurences.Add(numbers[i]);
-                    }
-                }
-
+                occurences.Add(numbers[i], currentOccurences);
                 countedNumbers.Add(numbers[i]);
             }
 
-            return evenOccurences;
+            return occurences;
         }
     }
 }
