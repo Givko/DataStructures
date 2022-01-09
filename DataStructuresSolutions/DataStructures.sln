@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.LinearDS", "01.LinearDS\01.LinearDS.csproj", "{ECA026EF-CB45-4F34-9DA8-F7E175C2A3C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructures.Solutions", "01.LinearDS\DataStructures.Solutions.csproj", "{ECA026EF-CB45-4F34-9DA8-F7E175C2A3C0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{551955E6-04B7-4293-A90B-A0240098E8FA}"
 	ProjectSection(SolutionItems) = preProject
