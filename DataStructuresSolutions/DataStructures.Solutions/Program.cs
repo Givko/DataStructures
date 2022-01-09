@@ -5,3 +5,8 @@ using DataStructures.Solutions.StacksAndQueues;
 //    ?.Split(' ', StringSplitOptions.RemoveEmptyEntries)
 //    .Select(num => int.Parse(num))
 //    .ToArray();
+var n = int.Parse(Console.ReadLine());
+var m = int.Parse(Console.ReadLine());
+
+var shortestPath = SequenceNM.FindShortestPath(n, m);
+Console.WriteLine(string.Join("->", shortestPath));
