@@ -1,4 +1,4 @@
-﻿namespace DataStructures.Solutions
+﻿namespace DataStructures.Solutions.ListsAndComplexity
 {
     public static class _01SumAndAverage
     {

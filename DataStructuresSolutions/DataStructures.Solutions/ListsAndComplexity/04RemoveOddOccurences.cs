@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataStructures.Solutions
+namespace DataStructures.Solutions.ListsAndComplexity
 {
     public static class _04RemoveOddOccurences
     {
@@ -12,7 +12,7 @@ namespace DataStructures.Solutions
         {
             List<int> countedNumbers = new List<int>();
             List<int> evenOccurences = new List<int>();
-            
+
             for (int i = 0; i < numbers.Length; i++)
             {
                 int currentOccurences = 1;

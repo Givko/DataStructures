@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataStructures.Solutions
+namespace DataStructures.Solutions.ListsAndComplexity
 {
     public class _07DistanceInLabyrinth
     {
@@ -52,7 +52,7 @@ namespace DataStructures.Solutions
             {
                 return;
             }
-            
+
             _Labyrinth[row, col] = stepNumber.ToString();
 
             //Up

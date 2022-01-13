@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataStructures.Solutions
+namespace DataStructures.Solutions.ListsAndComplexity
 {
     public static class _03LongestSubsequence
     {

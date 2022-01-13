@@ -1,4 +1,4 @@
-﻿namespace DataStructures.Solutions
+﻿namespace DataStructures.Solutions.ListsAndComplexity
 {
     public static class _02SortWords
     {
@@ -25,7 +25,7 @@
 
             for (int j = left; j <= right; j++)
             {
-                if (arr[j].CompareTo(pivot) < 0 )
+                if (arr[j].CompareTo(pivot) < 0)
                 {
                     temp = arr[j];
                     arr[j] = arr[i];
